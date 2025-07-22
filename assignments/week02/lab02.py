@@ -11,7 +11,7 @@
     Show the calculation formula used
 """
 
-direction = input("What is your conversion direction (1: THB to USD to THB): ")
+direction = input("What is your conversion direction (1: THB to USD,2: USD to THB): ")
 amount = float(input("Amount to convert: "))
 
 if direction == "1":
